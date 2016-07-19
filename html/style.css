@@ -1,0 +1,118 @@
+@import url("css/carousel.css");
+
+body{
+	min-height: 800px;
+	min-width: 1024px;
+	
+	max-width: 1920px;
+	
+	margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+header{
+	width: 100%;
+}
+
+.header-top{
+	width: inherit;
+	height: 3em;
+	border-bottom: 2px solid #8e8e8e;
+	background-image: url(img/bg_metalblue_gradient.png);
+}
+
+.header-nav{
+	width: 56%;
+	height: inherit;
+	float: left;
+	
+}
+
+.header-nav ul{
+	list-style: none;
+	
+	
+}
+.header-nav li{
+	float: left;
+	padding: 0px 30px 0px 5px;
+}
+
+
+
+.header-nav a:link,
+.header-nav a:visited,
+.header-logo a:link,
+.header-logo a:visited{
+	text-decoration: none;
+	color: #000000;
+	font-size: 1.2em;
+	letter-spacing: 2px;
+}
+
+.header-nav a:hover{
+	text-decoration: underline;
+}
+
+.header-logo {
+	width: 20%;
+	margin-right: 2%;
+	height: inherit;
+	float: left;
+}
+
+.search-bar{
+	width: 20%;
+	height: inherit;
+	margin-left: 2%;
+	float: right;	
+}
+
+.search-bar-form{
+	padding-top: 10px;
+}
+
+.search-input{
+	border-radius: 40px 0px 0px 40px;
+	border: 1px solid #c6bebe;
+	border-right: none;
+	outline:none;
+	padding-left: 10px;
+	padding-right: 4px;
+	width: 8em;
+	height: 26px;
+	float: right;
+}
+
+.search-button{
+	border-radius: 0px 40px 40px 0px;
+	background-color: #fff;
+	border: 1px solid #c6bebe;
+	outline:none;
+	background-image: url(img/search_25.png);
+	background-repeat: no-repeat;
+	width: 33px;
+	height: 30px;
+	float: right;
+	margin-right: 5%;
+	
+}
+
+.search-button:hover{
+	background-color: #bfbfbf;
+	transition: linear 0.2s;
+}
+
+
+
+header::after{
+	clear: both;
+}
+
+
+
+
