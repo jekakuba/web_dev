@@ -7,7 +7,7 @@
 	<!--[if lt IE 9]> <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script> <![endif]-->
 
 	<link rel="stylesheet" href="style.css" type="text/css" media="screen" />
-	
+	<script src="js/ism-2.2.min.js"></script>
 	
 </head>
 
@@ -16,11 +16,11 @@
 	<header>
 		<div class="header-top">
 			
-			<div class="header-logo">  
+			 
 			
-				<a href="#">Central Channel</a>
+		<a href="#"><div class="header-logo"> Central Channel</div></a>
 				
-			</div>
+			
 			
 			<nav class="header-nav">
 				<ul>
@@ -39,44 +39,24 @@
 			</div>
 
 		</div>
-
-		<!-- КАРУСЕЛЬ -->
-		<div class="header-bottom">
-			<div class="carousel">
-				<div class="carousel-inner">
-					<input class="carousel-open" type="radio" id="carousel-1" name="carousel" aria-hidden="true" hidden="" checked="checked">
-					<div class="carousel-item">
-						<img src="http://fakeimg.pl/2000x800/0079D8/fff/?text=Without">
-					</div>
-					<input class="carousel-open" type="radio" id="carousel-2" name="carousel" aria-hidden="true" hidden="">
-					<div class="carousel-item">
-						<img src="http://fakeimg.pl/2000x800/DA5930/fff/?text=JavaScript">
-					</div>
-					<input class="carousel-open" type="radio" id="carousel-3" name="carousel" aria-hidden="true" hidden="">
-					<div class="carousel-item">
-						<img src="http://fakeimg.pl/2000x800/F90/fff/?text=Carousel">
-					</div>
-					<label for="carousel-3" class="carousel-control prev control-1">‹</label>
-					<label for="carousel-2" class="carousel-control next control-1">›</label>
-					<label for="carousel-1" class="carousel-control prev control-2">‹</label>
-					<label for="carousel-3" class="carousel-control next control-2">›</label>
-					<label for="carousel-2" class="carousel-control prev control-3">‹</label>
-					<label for="carousel-1" class="carousel-control next control-3">›</label>
-					<ol class="carousel-indicators">
-						<li>
-							<label for="carousel-1" class="carousel-bullet">•</label>
-						</li>
-						<li>
-							<label for="carousel-2" class="carousel-bullet">•</label>
-						</li>
-						<li>
-							<label for="carousel-3" class="carousel-bullet">•</label>
-						</li>
-					</ol>
-				</div>
+		<div class="slider">
+			<div class="ism-slider" data-play_type="loop" id="my-slider">
+			  <ol>
+				<li>
+				  <img src="img/slides/above-736879_1280.jpg">
+				  <div class="ism-caption ism-caption-0">Picture_1</div>
+				</li>
+				<li>
+				  <img src="img/slides/beautiful-701678_1280.jpg">
+				  <div class="ism-caption ism-caption-0">Picture_2</div>
+				</li>
+				<li>
+				  <img src="img/slides/summer-192179_1280.jpg">
+				  <div class="ism-caption ism-caption-0">Picture_3</div>
+				</li>
+			  </ol>
 			</div>
 		</div>
-		<!-- КАРУСЕЛЬ -->
 	</header>
 	
 	<!-- /HEADER -->
