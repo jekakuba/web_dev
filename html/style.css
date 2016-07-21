@@ -63,6 +63,10 @@ header{
 	/*background-image: url(img/bg_metalblue_gradient.png);
 	*/
 	
+}
+
+.header-top,
+footer{
 	background:
 		linear-gradient(27deg, #151515 5px, transparent 5px) 0 5px,
 		linear-gradient(207deg, #151515 5px, transparent 5px) 10px 0px,
@@ -97,7 +101,8 @@ header{
 	letter-spacing: 2px;
 }
 
-.header-nav ul li{
+.header-nav ul li,
+footer p{
 	width: 10em;
 	height: 30px;
 	float: left;
@@ -202,7 +207,8 @@ header{
 }
 
 .search-button:hover,
-.header-nav ul li:hover{
+.header-nav ul li:hover,
+footer p:hover{
 	background-color: #bfbfbf;
 	
 }
@@ -210,3 +216,22 @@ header{
 header::after{
 	clear: both;
 }
+
+
+footer{
+	width: 100%;
+	height: 50px;
+}
+
+footer p{
+	margin-top: 8px;
+	padding: 3px;
+	width: 15em;
+}
+
+
+
+
+
+
+
